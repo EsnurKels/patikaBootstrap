@@ -1,0 +1,94 @@
+.nav-bg {
+  border-bottom: 1px solid #d3d3d3;
+  box-shadow: 5px 4px 15px #d3d3d3;
+  background-color: #fff; }
+  .nav-bg .navbar-brand img {
+    width: 100%;
+    max-width: 150px; }
+  .nav-bg .nav-item {
+    margin: auto 5px; }
+    .nav-bg .nav-item .nav-link {
+      color: #000;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .nav-bg .nav-item:last-child {
+      border: 1px solid #000;
+      border-radius: 50em; }
+
+.story {
+  background-color: #fff;
+  border: 1px solid #d3d3d3b9;
+  box-shadow: 0px 0px 15px #d3d3d37a;
+  border-radius: 0.3em; }
+  .story .grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 20px; }
+    .story .grid .g-col {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .story .grid .g-col .story-profile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        border: 4px solid #e7247f;
+        width: 85px;
+        height: 85px;
+        border-radius: 50px; }
+      .story .grid .g-col p {
+        margin: 0; }
+
+.my-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .my-profile i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 50em;
+    border: 4px solid #e7247f;
+    width: 85px;
+    height: 85px; }
+
+.takip {
+  font-size: 17px; }
+
+.userphoto {
+  background-color: #fff;
+  border: 1px solid #d3d3d3b9;
+  box-shadow: 0px 0px 15px #d3d3d37a;
+  border-radius: 0.3em; }
+  .userphoto .profile {
+    display: flex;
+    align-items: center; }
+    .userphoto .profile .fa-user {
+      font-size: 22px;
+      border: 1px solid transparent;
+      border-radius: 25em;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff; }
+  .userphoto .fa-ellipsis {
+    font-size: 22px; }
+  .userphoto .profile-img {
+    width: 100%;
+    max-height: 450px;
+    object-position: center;
+    object-fit: cover; }
+
+body {
+  background-color: #f7f7f7; }
+
+/*# sourceMappingURL=style.css.map */
