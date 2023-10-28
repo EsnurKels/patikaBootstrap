@@ -1,0 +1,39 @@
+.navbar-brand i {
+  color: #0a66c2;
+  font-size: 35px; }
+
+.nav-item .nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 10px;
+  font-size: 20px; }
+  .nav-item .nav-link span {
+    font-size: 12px; }
+
+.nav-link.active {
+  border-bottom: 2px solid #000; }
+
+body {
+  background-color: #f4f2ee; }
+
+.profile {
+  border-radius: 0.7em; }
+  .profile .prf-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url(https://media.licdn.com/dms/image/D4D16AQEKMUemQidxIw/profile-displaybackgroundimage-shrink_350_1400/0/1681931511546?e=1703721600&v=beta&t=2j9UP7BsiuwmRUwVQA3hb8fDUeNCnYP3Z25eQoyEYF4); }
+    .profile .prf-img img[alt="profile"] {
+      width: 80px; }
+
+.profile-2 {
+  border-radius: 0.7em;
+  height: 300px; }
+
+.copyright a {
+  font-size: 14px; }
+.copyright .linkedin {
+  color: #0a66c2; }
+
+/*# sourceMappingURL=style.css.map */
